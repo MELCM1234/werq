@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e0cc72;
+}
+.container {
+    text-align: center;
+}
+h1{
+    font-family: "Lugrasimo", cursive;
+}
+
+
+form {
+    display: inline-block;
+}
+
+label {
+    display: block;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #263d56;
+    color: rgb(249, 249, 249);
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+
+.container {
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+    border: 2px solid #000000; /* Añade un borde de 2px sólido y de color gris claro */
+    padding: 20px; /* Añade un espacio interior de 20px */
+    border-radius: 10px; /* Añade bordes redondeados */
+}
+
+label {
+    display: block;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+
+button:hover {
+    background-color: #97a839;
+}
+
+#message {
+    color: red;
+    font-weight: bold;
+}
+
+
+
+label {
+    display: block;
+    margin-bottom: 10px; /* Espacio entre etiquetas */
+}
+
+input {
+    width: calc(100% - 40px); /* Ancho del input, menos el espacio para el borde */
+    margin-bottom: 40px;
+    padding: 5px; /* Relleno interior del input */
+}
+
